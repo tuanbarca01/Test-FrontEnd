@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="test.css"> 
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./logo.png" alt="">
+        </div>
+        <div class="userName">
+            <div id="input-user" name="input-user">
+                <input name="name" id="name" type="text" placeholder="Please enter your name ...">
+                <button onclick="showYourName()" onclick="cookie()">Display</button>
+            </div>
+            <div id="showName">
+                
+            </div>
+            <div class="showAvatar">
+                <img src="./user.png" alt="">
+            </div>
+        </div>
+        
+    </header>
+    <div class="title">
+        <div class="define-title">
+            <h1>A joke a day keeps the doctor away</h1>
+            <span>If you joke wrong way, your teeth have to pay. (Serious)</span>
+        </div>
+    </div>
+    <div class="container">
+        <div id="joke-content">
+            The content of the stories will be displayed here
+        </div>
+        <div class="selection">
+            <button class="funny-select" onclick="funnyStory()">This is funny!</button>
+            <button class="notFunny-select" onclick="notFunnyStory()">This is not funny!</button>
+            <button id="reset-story">Reset Story</button>
+        </div>
+    </div>
+
+    <footer>
+        <span>This website is created as part of Hlsolutions program. The materials containd on this website are provided for general</span><br/>
+        <span>infrmation only and do not constitute any form of advice. HLS assumes no responsibility for the accuracy of any particular statement and</span><br/>
+        <span>accepts ni liability for any loss or damage which may arise from reliance on the information contained on this site.</span><br>
+        <h3>Copyright 2021 HLS</h3>
+    </footer>
+    <script src="test.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    height: 100px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .userName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+}
+header .logo {
+    margin-left: 200px;
+}
+header .userName #input-user, #showName {
+    margin-right: 10px;
+}
+header .userName #showName #yourName {
+    margin-left: 50px;
+}
+header .userName #showName span:nth-child(1) {
+    font-size: 18px;
+    color: #666666;
+    
+}
+header .userName #showName span:nth-child(3) {
+    font-size: 20px;
+}
+.title {
+    position: relative;
+    background-color: #2E8B57;
+    height: 250px;
+}
+.title .define-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.title .define-title span {
+    margin-left: 10%;
+}
+.container{
+    max-width: 70%;
+    transform: translateX(20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.container #joke-content {
+    align-items: center;
+    max-width: 800px;
+    line-height: 2;
+}
+.container .selection {
+    margin-top: 80px;
+}
+.container .selection button {
+    padding: 15px 50px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.container .selection .funny-select {
+    background-color: #4682b4;
+    color: #fff;
+    border: none;
+}
+.container .selection .notFunny-select {
+    background-color: #2E8B57;
+    color: #fff;
+    border: none;
+}
+.container .selection #reset-story{
+    display: none;
+}
+.container .selection button:hover {
+    background-color: orange;
+    transition: 0.3s ease-in-out;
+}
+
+footer{
+    margin-top: 80px;
+    padding: 30px 0;
+    border-top: 1px solid #aaaaaa;
+    text-align: center;
+}
+footer span{
+    color: #aaaaaa;
+}
+footer h3 {
+    color: #666666;
+}
